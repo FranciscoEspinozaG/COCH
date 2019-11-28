@@ -1,0 +1,36 @@
+.foto{
+    &-federacion{
+        height: 150px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    &-modal{
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        img{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &-xl{
+            max-width: 80% !important;
+            margin: auto;
+            margin-top:100px;
+        }
+        &-directorio{
+            min-height: 500px;
+            width: 200px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}
+
+.modal-xl {
+    max-width: 80% !important;
+    margin: auto;
+        margin-top: auto;
+    margin-top: 100px;
+}

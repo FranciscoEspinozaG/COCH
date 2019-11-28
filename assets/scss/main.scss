@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+@import 'bourbon';
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/media';
+@import 'utils/mixins';
+@import 'utils/placeholders';
+
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/global';
+@import 'base/pages';
+@import 'base/footer';
+@import 'base/galerias';
+
+@import 'base/sidemenu';
+
+// @import 'components/loader';
+// @import 'components/navbar';
+// @import 'components/buttons';
+// @import 'components/hamburguer';
+// @import 'components/maps';
+// @import 'components/tooltips';
+
+// @import 'layout/footer';
+body{
+    color: $brand-primary-color;
+}
+
+.destacar{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
